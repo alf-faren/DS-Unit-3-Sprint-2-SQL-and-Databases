@@ -128,12 +128,20 @@ Answer the following questions, baseline ~3-5 sentences each, as if they were
 interview screening questions (a form you fill when applying for a job):
 
 - In the Northwind database, what is the type of relationship between the
-  `Employee` and `Territory` tables?
--- The `Employee` and `Territory` tables are in a many-to-many relationship. This makes sense because employees can be in multiple territories and vice versa. As a result, it would create duplicate entries for each employee and territory. To take care of this problem, it is necessary to create a linking table such as the `EmployeeTerritory`.
+`Employee` and `Territory` tables?
+
+The `Employee` and `Territory` tables are in a many-to-many relationship. This makes sense because employees can be in multiple territories and vice versa. As a result, it would create duplicate entries for each employee and territory. To take care of this problem, it is necessary to create a linking table such as the `EmployeeTerritory`.
+
 - What is a situation where a document store (like MongoDB) is appropriate, and
   what is a situation where it is not appropriate?
-- A document store(like MongdoDB), are generally appropiate with situations dealing with large, diverse, and/or frequently changing databases. An example of such database would be 
+
+A document store(like MongdoDB), are generally appropriate with situations dealing with large, diverse, and/or frequently changing databases. Examples of this would be data from emails, XML files and chat logs.
+
+Sitiuations where it is deemed inappropriate for use would be for data which is primarily focussed on numerical values. Examples would be payments, tracking restaurant orders, and within a banking database.
+
 - What is "NewSQL", and what is it trying to achieve?
+
+NewSQL is a hybrid of a traditional relational database and a NOSQL database. It will combine the relational model and transactional model into one data structure. NEWSQL is trying to give the functionality of SQL with the speed of document stores.
 
 ### Part 5 - Turn it in!
 Provide all the files you wrote (`demo_data.py`, `northwind.py`), as well as
