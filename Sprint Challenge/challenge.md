@@ -141,7 +141,7 @@ Sitiuations where it is deemed inappropriate for use would be for data which is 
 
 - What is "NewSQL", and what is it trying to achieve?
 
-NewSQL is a hybrid of a traditional relational database and a NOSQL database. It will combine the relational model and transactional model into one data structure. NEWSQL is trying to give the functionality of SQL with the speed of document stores.
+NewSQL is a hybrid of a traditional relational database and a NoSQL database. It will combine the relational model and transactional model into one data structure. NewSQL is trying to give the functionality of SQL with the speed of document stores.
 
 ### Part 5 - Turn it in!
 Provide all the files you wrote (`demo_data.py`, `northwind.py`), as well as
